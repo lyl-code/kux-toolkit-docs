@@ -76,7 +76,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://gitcode.com/kviewui/kux-toolkit' }
+      { icon: 'github', link: 'https://gitcode.com/uvuejs/kux-toolkit' }
     ],
 
     editLink: {
