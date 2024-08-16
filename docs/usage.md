@@ -11,3 +11,7 @@ import { min } from '@/uni_modules/kux-toolkit'
 
 console.log(min([1, 2])) // 1
 ```
+
+::: tip 提示
+上面示例中只是展示了 [min](./reference/array/min) 方法的用法，实际开发中，请根据实际需求调用相应的方法。
+:::
