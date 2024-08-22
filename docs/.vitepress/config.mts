@@ -95,6 +95,21 @@ export default defineConfig({
               { text: 'last【v1.0.1新增】', link: '/reference/array/last' },
               { text: 'initial【v1.0.1新增】', link: '/reference/array/initial' },
             ]
+          },
+          {
+            text: '数学工具',
+            items: [
+              { text: 'clamp【v1.0.2新增】', link: '/reference/math/clamp' },
+              { text: 'inRange【v1.0.2新增】', link: '/reference/math/inRange' },
+              { text: 'mean【v1.0.2新增】', link: '/reference/math/mean' },
+              { text: 'meanBy【v1.0.2新增】', link: '/reference/math/meanBy' },
+              { text: 'random【v1.0.2新增】', link: '/reference/math/random' },
+              { text: 'randomInt【v1.0.2新增】', link: '/reference/math/randomInt' },
+              { text: 'range【v1.0.2新增】', link: '/reference/math/range' },
+              { text: 'round【v1.0.2新增】', link: '/reference/math/round' },
+              { text: 'sum【v1.0.2新增】', link: '/reference/math/sum' },
+              { text: 'sumBy【v1.0.2新增】', link: '/reference/math/sumBy' },
+            ]
           }
         ]
       }

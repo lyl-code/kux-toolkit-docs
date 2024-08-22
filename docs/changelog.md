@@ -2,6 +2,21 @@
 
 <br />
 
+::: timeline 1.0.2 (2024-08-22)
+
++ 新增 `clamp` 数学工具函数，用于限制数值在指定范围内。[文档](/reference/math/clamp)
++ 新增 `inRange` 数学工具函数，用于判断数值是否在指定范围内。[文档](/reference/math/inRange)
++ 新增 `mean` 数学工具函数，用于计算数组的平均值。[文档](/reference/math/mean)
++ 新增 `meanBy` 数学工具函数，用于计算数组的平均值，根据回调函数获取值。[文档](/reference/math/meanBy)
++ 新增 `random` 数学工具函数，用于生成随机数。[文档](/reference/math/random)
++ 新增 `randomInt` 数学工具函数，用于生成随机整数。[文档](/reference/math/randomInt)
++ 新增 `range` 数学工具函数，根据起始值、结束值和步长生成数组。[文档](/reference/math/range)
++ 新增 `round` 数学工具函数，用于四舍五入。[文档](/reference/math/round)
++ 新增 `sum` 数学工具函数，用于计算数组的总和。[文档](/reference/math/sum)
++ 新增 `sumBy` 数学工具函数，用于计算数组的总和，根据回调函数获取值。[文档](/reference/math/sumBy)
+
+:::
+
 ::: timeline 1.0.1 (2024-08-16)
 
 + 新增 `sample` 数组工具函数，用于生成指定长度的随机数组。[文档](/reference/array/sample)
