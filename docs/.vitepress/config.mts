@@ -42,6 +42,7 @@ export default defineConfig({
           {
             text: '数组工具',
             items: [
+              { text: 'at【v1.0.4新增】', link:  '/reference/array/at' },
               { text: 'chunk', link: '/reference/array/chunk' },
               { text: 'concat', link: '/reference/array/concat' },
               { text: 'concatValues', link: '/reference/array/concatValues' },
