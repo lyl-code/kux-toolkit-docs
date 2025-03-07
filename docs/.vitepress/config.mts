@@ -43,6 +43,7 @@ export default defineConfig({
             text: '数组工具',
             items: [
               { text: 'at【v1.0.4新增】', link:  '/reference/array/at' },
+              { text: 'castArray【v1.0.4新增】', link: '/reference/array/castArray' },
               { text: 'chunk', link: '/reference/array/chunk' },
               { text: 'concat', link: '/reference/array/concat' },
               { text: 'concatValues', link: '/reference/array/concatValues' },
@@ -95,6 +96,15 @@ export default defineConfig({
               { text: 'tail【v1.0.1新增】', link: '/reference/array/tail' },
               { text: 'last【v1.0.1新增】', link: '/reference/array/last' },
               { text: 'initial【v1.0.1新增】', link: '/reference/array/initial' },
+            ]
+          },
+          {
+            text: '函数工具',
+            items: [
+              { text: 'after【v1.0.4】新增', link: '/reference/function/after' },
+              { text: 'asyncNoop【v1.0.4】新增', link: '/reference/function/asyncNoop' },
+              { text: 'before【v1.0.4】新增', link: '/reference/function/before' },
+              { text: 'debounce【v1.0.4】新增', link: '/reference/function/debounce' },
             ]
           },
           {
