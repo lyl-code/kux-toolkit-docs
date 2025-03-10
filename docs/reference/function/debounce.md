@@ -53,3 +53,21 @@ debouncedFunction('Function executed'); // 1秒后打印 Function executed
 
 debouncedFunction.cancel(); // 如果立即调用 cancel，上面的防抖函数会被立即取消
 ```
+
+### 使用AbortSignal
+```ts
+import { debounce, DebounceOptions, AbortController } from '@/uni_modules/kux-toolkit'
+
+const demoFunc = (message?: string) => {
+    console.log(message);
+}
+const controller = new AbortController();
+const signal = controller.signal;
+const debouncedWithSignal = debounce(demoFunc, 5000, {
+    signal
+});
+// 如果在此期间没有再次调用，则在1秒后输出 'Function executed'
+debouncedWithSignal('Function executed'); // 打印 Function executed
+// 取消了防抖函数的调用
+// controller.abort();
+```
