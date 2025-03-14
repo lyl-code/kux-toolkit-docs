@@ -56,12 +56,13 @@ debouncedFunction.cancel(); // 如果立即调用 cancel，上面的防抖函数
 
 ### 使用AbortSignal
 ```ts
-import { debounce, DebounceOptions, AbortController } from '@/uni_modules/kux-toolkit'
+import { debounce, DebounceOptions } from '@/uni_modules/kux-toolkit';
+import { KuxAbortController } from '@/uni_modules/kux-abort-signal';
 
 const demoFunc = (message?: string) => {
     console.log(message);
 }
-const controller = new AbortController();
+const controller = new KuxAbortController();
 const signal = controller.signal;
 const debouncedWithSignal = debounce(demoFunc, 5000, {
     signal

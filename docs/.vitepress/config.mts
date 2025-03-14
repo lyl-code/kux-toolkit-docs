@@ -101,10 +101,11 @@ export default defineConfig({
           {
             text: '函数工具',
             items: [
-              { text: 'after【v1.0.4】新增', link: '/reference/function/after' },
-              { text: 'asyncNoop【v1.0.4】新增', link: '/reference/function/asyncNoop' },
-              { text: 'before【v1.0.4】新增', link: '/reference/function/before' },
-              { text: 'debounce【v1.0.4】新增', link: '/reference/function/debounce' },
+              { text: 'after【v1.0.4新增】', link: '/reference/function/after' },
+              { text: 'asyncNoop【v1.0.4新增】', link: '/reference/function/asyncNoop' },
+              { text: 'before【v1.0.4新增】', link: '/reference/function/before' },
+              { text: 'debounce【v1.0.4新增】', link: '/reference/function/debounce' },
+              { text: 'retry【v1.0.4新增】', link: '/reference/function/retry' },
             ]
           },
           {
