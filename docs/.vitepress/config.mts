@@ -105,7 +105,9 @@ export default defineConfig({
               { text: 'asyncNoop【v1.0.4新增】', link: '/reference/function/asyncNoop' },
               { text: 'before【v1.0.4新增】', link: '/reference/function/before' },
               { text: 'debounce【v1.0.4新增】', link: '/reference/function/debounce' },
+              { text: 'once【v1.0.4新增】', link: '/reference/function/once' },
               { text: 'retry【v1.0.4新增】', link: '/reference/function/retry' },
+              { text: 'throttle【v1.0.4新增】', link: '/reference/function/throttle' },
             ]
           },
           {
