@@ -113,6 +113,7 @@ export default defineConfig({
           {
             text: '数学工具',
             items: [
+              { text: 'add【v1.0.4新增】', link: '/reference/math/add' },
               { text: 'clamp【v1.0.2新增】', link: '/reference/math/clamp' },
               { text: 'inRange【v1.0.2新增】', link: '/reference/math/inRange' },
               { text: 'mean【v1.0.2新增】', link: '/reference/math/mean' },
