@@ -3,6 +3,7 @@
 <br />
 
 ::: timeline 1.0.4 (2025-03-25)
++ 【重要】新增支持微信小程序。
 + 新增 `at` 数组工具函数，用于获取数组中的元素。[文档](/reference/array/at.html)
 + 新增 `castArray` 数组工具函数，用于将非数组的值转换成数组。[文档](/reference/array/castArray.html)
 + 新增 `before` 函数工具函数，用于限制给定函数被调用的次数。[文档](/reference/function/before.html)
