@@ -2,6 +2,33 @@
 
 <br />
 
+::: timeline 1.0.4 (2025-03-25)
++ 新增 `at` 数组工具函数，用于获取数组中的元素。[文档](/reference/array/at.html)
++ 新增 `castArray` 数组工具函数，用于将非数组的值转换成数组。[文档](/reference/array/castArray.html)
++ 新增 `before` 函数工具函数，用于限制给定函数被调用的次数。[文档](/reference/function/before.html)
++ 新增 `after` 函数工具函数，用于指定给定函数在限制次数后开始调用。[文档](/reference/function/after.html)
++ 新增 `asyncNoop` 函数工具函数，用于创建一个不做任何事情的异步函数。[文档](/reference/function/asyncNoop.html)
++ 新增 `debounce` 函数工具函数，用于防抖动。[文档](/reference/function/debounce.html)
++ 新增 `retry` 函数工具函数，用于重试函数。[文档](/reference/function/retry.html)
++ 新增 `torottle` 函数工具函数，用于节流函数。[文档](/reference/function/throttle.html)
++ 新增 `add` 数学工具函数，用于两个数相加求和。[文档](/reference/math/add.html)
++ 新增 `ceil` 数学工具函数，用于将一个数字向上取整到指定的精度。[文档](/reference/math/ceil.html)
++ 新增 `divide` 数学工具函数，用于两个数相除。[文档](/reference/math/divide.html)
++ 新增 `floor` 数学工具函数，用于将一个数字向下取整到指定的精度。[文档](/reference/math/floor.html)
++ 新增 `multiply` 数学工具函数，用于两个数相乘。[文档](/reference/math/multiply.html)
++ 新增 `subtract` 数学工具函数，用于两个数相减。[文档](/reference/math/subtract.html)
++ 新增 `camelCase` 字符串工具函数，用于将字符串转换成驼峰形式。[文档](/reference/string/camelCase)
++ 新增 `capitalize` 字符串工具函数，用于将字符串的首字母大写。[文档](/reference/string/capitalize)
++ 新增 `constantCase` 字符串工具函数，用于将字符串转换成常量形式。[文档](/reference/string/constantCase)
++ 新增 `endsWith` 字符串工具函数，用于判断字符串是否以指定后缀结尾。[文档](/reference/string/endsWith)
++ 新增 `kebabCase` 字符串工具函数，用于将字符串转换成短横线形式。[文档](/reference/string/kebabCase)
++ 新增 `lowerCase` 字符串工具函数，用于将字符串转换成小写形式。[文档](/reference/string/lowerCase)
+:::
+
+::: timeline 1.0.3 (2024-10-25)
++ 修复 `4.31版本编译器` 编译失败的问题。
+:::
+
 ::: timeline 1.0.2 (2024-08-22)
 
 + 新增 `clamp` 数学工具函数，用于限制数值在指定范围内。[文档](/reference/math/clamp)

@@ -114,16 +114,32 @@ export default defineConfig({
             text: '数学工具',
             items: [
               { text: 'add【v1.0.4新增】', link: '/reference/math/add' },
+              { text: 'ceil【v1.0.4新增】', link: '/reference/math/ceil' },
               { text: 'clamp【v1.0.2新增】', link: '/reference/math/clamp' },
+              { text: 'divide【v1.0.4新增】', link: '/reference/math/divide' },
+              { text: 'floor【v1.0.4新增】', link: '/reference/math/floor' },
               { text: 'inRange【v1.0.2新增】', link: '/reference/math/inRange' },
               { text: 'mean【v1.0.2新增】', link: '/reference/math/mean' },
               { text: 'meanBy【v1.0.2新增】', link: '/reference/math/meanBy' },
+              { text: 'multiply【v1.0.4新增】', link: '/reference/math/multiply' },
               { text: 'random【v1.0.2新增】', link: '/reference/math/random' },
               { text: 'randomInt【v1.0.2新增】', link: '/reference/math/randomInt' },
               { text: 'range【v1.0.2新增】', link: '/reference/math/range' },
               { text: 'round【v1.0.2新增】', link: '/reference/math/round' },
+              {  text: 'subtract【v1.0.4新增】', link: '/reference/math/subtract' },
               { text: 'sum【v1.0.2新增】', link: '/reference/math/sum' },
               { text: 'sumBy【v1.0.2新增】', link: '/reference/math/sumBy' },
+            ]
+          },
+          {
+            text: '字符串工具',
+            items: [
+                { text: 'camelCase【v1.0.4新增】', link: '/reference/string/camelCase' },
+                { text: 'capitalize【v1.0.4新增】', link: '/reference/string/capitalize' },
+                { text: 'constantCase【v1.0.4新增】', link: '/reference/string/constantCase' },
+                { text: 'endsWith【v1.0.4新增】', link: '/reference/string/endsWith' },
+                { text: 'kebabCase【v1.0.4新增】', link: '/reference/string/kebabCase' },
+                { text: 'lowerCase【v1.0.4新增】', link: '/reference/string/lowerCase' },
             ]
           }
         ]
